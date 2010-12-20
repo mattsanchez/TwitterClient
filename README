@@ -11,6 +11,8 @@ Commons HttpClient 3.1, http://hc.apache.org/httpclient-3.x/.  It
 backs off and reconnects on HTTP and TCP errors as per the spec.  It
 can connect using multiple sets of credentials at once.
 
+- mattsanchez: Updating TwitterClient to use new and improved Apache HttpClient 4.0 - http://hc.apache.org/httpcomponents-client-ga/index.html.
+
 TwitterClient is constructed with two helper objects.  This
 functionality has been factored out since it's likely to vary wildly
 according to need.
